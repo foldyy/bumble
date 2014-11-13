@@ -64,9 +64,13 @@
 
 
 
-<!-- <div class="row">
-    <div class="small-12 columns"> -->
-   <div class="autoplay">
+<div class="row" "slider_container" >
+  <!-- <div class="large-2 columns">
+  left
+  </div> -->
+    <div class="large-12 columns">
+      <div class=panel>
+   <div class="mySlider">
   <div><img src="img\stol.jpg"></div>
   <div><img src="img\Shahmati.jpg"></div>
   <div><img src="img\krovat.jpg"></div>
@@ -74,10 +78,14 @@
   <div><img src="img\krovat.jpg"></div>
   <div><img src="img\stol.jpg"></div>
 </div>
-        
-<!-- </div>
 </div>
- -->
+<!-- <div class="large-3 columns">
+  right
+  </div> -->
+        
+</div>
+</div>
+
 
 <hr>
 
@@ -109,7 +117,7 @@ We offer to Your attention pieces of work of Yuri Moshans’ Art-studio.
 
 <div class="row">
     <div class="small-4 large-centered columns">
-<img src  ="img/podpisj.jpg">
+<img src="img/podpisj.jpg">
 </div>
   
 
@@ -126,14 +134,16 @@ We offer to Your attention pieces of work of Yuri Moshans’ Art-studio.
 
  <script type="text/javascript">
         $(document).ready(function () {
-$('.autoplay').slick({
-    
-    infinite: true,
-    dots: true,
-    autoplay:true,
-    autoplaySpeed: 3000,
-    slidesToShow: 3,
-    slidesToScroll: 1
+$('.mySlider').slick({
+  infinite:true,
+  autoplay:true,
+  autoplaySpeed: 2000,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  dots: true,
+  arrows: false,
+  
+
 });
 });
     </script>
