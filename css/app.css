@@ -5,7 +5,7 @@ body {
   /*background-image: url("../img/Inessa.jpg");*/
   background-repeat: no-repeat;
   background-size:100%;
- /* color: orange;*/
+  color: #29382E;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -21,7 +21,7 @@ background: #333333;
 }
 
   .top-bar {
-  overflow: hidden;
+  /*overflow: hidden;*/
   line-height: 45px;
   position: relative;
   background: #1F1F1F;
@@ -63,6 +63,7 @@ button, .button {
 
     text-align: center;
     background-color: #1F1F1F;
+    overflow: visible;
     /*background-image: url("../img/bg2.jpg");*/
   }
 
@@ -78,6 +79,9 @@ button, .button {
   margin-top: 0;
   margin-bottom: 0;
   max-width: 62.5rem; }
+  /*change the width for le whole */
+
+
   .row:before, .row:after {
     content: " ";
     display: table; }
