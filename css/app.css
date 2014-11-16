@@ -1,10 +1,11 @@
 body {
 /*background: transparent !important;*/
-  background: #141414;
+  background: #29382E;
+  /*#141414*/
   /*background-image: url("../img/Inessa.jpg");*/
   background-repeat: no-repeat;
   background-size:100%;
-  color: orange;
+ /* color: orange;*/
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -14,11 +15,16 @@ body {
   position: relative;
   cursor: auto; }
 
+.contain-to-grid {
+width: 100%;
+background: #333333;
+}
+
   .top-bar {
   overflow: hidden;
   line-height: 45px;
   position: relative;
-  background: transparent;
+  background: #1F1F1F;
   margin-bottom: 0; }
 
 /*Force full width*/
@@ -121,10 +127,12 @@ button, .button {
     line-height: 0; }
 
   .panel {
+    text-align: center; 
     color:white;
-    background-color:#212121;
-    border-radius:0x;
+    background-color:transparent;
+    border-radius:;
     border:none;
+    font-style: italic;
   }
 
  /* .menuholder {background-color: black;
@@ -181,7 +189,7 @@ button, .button {
     border-radius: 3px; }
 
 
-#dimmed {
+/*#dimmed {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -195,11 +203,11 @@ button, .button {
     height: 100%;
 }
 
-
+*/
 #pageWrapper {
      /*background-image: url("../img/Inessa.jpg");
-     background-repeat: no-repeat;*/
-     background-size: 100%;
+     background-repeat: no-repeat;
+     background-size: 100%;*/
 
      margin: 0px auto; 
      max-width: 62.5em; 
