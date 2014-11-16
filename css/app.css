@@ -30,6 +30,8 @@ background: #29382E;
   background: #1F1F1F;
   margin-bottom: 0; }
 
+/*Centralised Menu*/
+
 nav.top-bar {
 text-align:center;
 }
@@ -43,7 +45,7 @@ color: #fff;
 padding: 12px 0 12px 0;
 padding-left: 15px;
 font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
-font-size:100%;
+font-size:100v%;
 font-weight: normal;
 text-transform: none;
 }
@@ -81,9 +83,24 @@ button, .button {
     /*background-image: url("../img/bg2.jpg");*/
   }
 
-  
+#master_picture {height:200px;
+  width:200px;
 
+}
 
+#master_picture > img {
+  height:200px;
+  width:200px;
+
+}
+.columns {
+
+border: 1px solid black;
+}
+
+.row {
+  border: 1px solid orange;
+}
   
 
   .row {
@@ -92,8 +109,11 @@ button, .button {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem; }
+  max-width: 62.5rem; 
+  
+  }
   /**/
+
 
 
   .row:before, .row:after {
