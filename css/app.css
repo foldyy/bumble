@@ -79,7 +79,7 @@ button, .button {
   margin-top: 0;
   margin-bottom: 0;
   max-width: 62.5rem; }
-  /*change the width for le whole */
+  /**/
 
 
   .row:before, .row:after {
@@ -217,6 +217,7 @@ button, .button {
      max-width: 62.5em; 
      width: 100%; 
      box-shadow: 0px 0px 15px;
+     color:White;
      border-radius: .5em;
 }
 
