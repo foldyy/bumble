@@ -15,9 +15,12 @@ body {
   position: relative;
   cursor: auto; }
 
+
+/*same bg color as body*/
+
 .contain-to-grid {
 width: 100%;
-background: #333333;
+background: #29382E; 
 }
 
   .top-bar {
@@ -27,13 +30,24 @@ background: #333333;
   background: #1F1F1F;
   margin-bottom: 0; }
 
-/*Force full width*/
-  /*.fullWidth {
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-   max-width: initial;
-}*/
+nav.top-bar {
+text-align:center;
+}
+section.top-bar-section {
+display: inline-block;
+}
+.top-bar-section ul li>a {
+display: block;
+width: 100%;
+color: #fff;
+padding: 12px 0 12px 0;
+padding-left: 15px;
+font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+font-size:100%;
+font-weight: normal;
+text-transform: none;
+}
+
 
 button, .button {
   border-style: solid;
