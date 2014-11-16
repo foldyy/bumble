@@ -1,8 +1,10 @@
 body {
-
-  background: #1F1F1F;
-  background-image: url("img\logo.jpg");
-  color: #white;
+/*background: transparent !important;*/
+  background: #141414;
+  /*background-image: url("../img/Inessa.jpg");*/
+  background-repeat: no-repeat;
+  background-size:100%;
+  color: orange;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -54,8 +56,8 @@ button, .button {
   .header {
 
     text-align: center;
-    background-color: #141414;
-
+    background-color: #1F1F1F;
+    /*background-image: url("../img/bg2.jpg");*/
   }
 
   
@@ -63,9 +65,46 @@ button, .button {
 
   
 
-  /*.row {border:solid blue thin;}
-  .columns {border:solid orange thin;}
-*/
+  .row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem; }
+  .row:before, .row:after {
+    content: " ";
+    display: table; }
+  .row:after {
+    clear: both; }
+  .row.collapse > .column,
+  .row.collapse > .columns {
+    padding-left: 0;
+    padding-right: 0; }
+  .row.collapse .row {
+    margin-left: 0;
+    margin-right: 0; }
+  .row .row {
+    width: auto;
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: none; }
+    .row .row:before, .row .row:after {
+      content: " ";
+      display: table; }
+    .row .row:after {
+      clear: both; }
+    .row .row.collapse {
+      width: auto;
+      margin: 0;
+      max-width: none; }
+      .row .row.collapse:before, .row .row.collapse:after {
+        content: " ";
+        display: table; }
+      .row .row.collapse:after {
+        clear: both; }
 
   h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -83,17 +122,18 @@ button, .button {
 
   .panel {
     color:white;
-    background-color:#2D2E2C;;
-    border-radius:20px;
+    background-color:#212121;
+    border-radius:0x;
     border:none;
   }
 
-  .menuholder {background-color: black;
-    padding:0px;
+ /* .menuholder {background-color: black;
+    padding:0px;*/
 
   }
 .mySlider{
   background-color:#CCBBB7;
+
 }
 
 .panelslider {
@@ -103,7 +143,7 @@ button, .button {
   border-color: #d8d8d8;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #2D2E2C;
+  background: #212121;
   color: #333333; }
   .panel > :first-child {
     margin-top: 0; }
@@ -139,6 +179,40 @@ button, .button {
       color: #008cba; }
   .panel.radius {
     border-radius: 3px; }
+
+
+#dimmed {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#dimmed img {
+  opacity:0.4;
+    width: 100%;
+    height: 100%;
+}
+
+
+#pageWrapper {
+     /*background-image: url("../img/Inessa.jpg");
+     background-repeat: no-repeat;*/
+     background-size: 100%;
+
+     margin: 0px auto; 
+     max-width: 62.5em; 
+     width: 100%; 
+     box-shadow: 0px 0px 15px;
+     border-radius: .5em;
+}
+
+
+
+
+
+
 /*.top-bar-section ul {display: table; margin: 0 auto;}
 .top-bar-section ul li {display: table-cell;}
 */
