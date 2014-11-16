@@ -83,7 +83,7 @@ button, .button {
     /*background-image: url("../img/bg2.jpg");*/
   }
 
-#master_picture {height:200px;
+.master_picture {height:200px;
   width:200px;
 
 }
@@ -93,14 +93,16 @@ button, .button {
   width:200px;
 
 }
-.columns {
+
+/*VISABILITY REASONS IT AINT NO MOZILLA*/
+/*.columns {
 
 border: 1px solid black;
 }
 
 .row {
   border: 1px solid orange;
-}
+}*/
   
 
   .row {
