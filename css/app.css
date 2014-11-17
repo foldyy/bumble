@@ -191,24 +191,41 @@ border: 1px solid black;
 
  
 
+.link:hover{
+
+  cursor:pointer;
+
+}
+
+div.link {
+cursor: pointer;
+text-decoration: none;
+ onclick="location.href='furniture.html';"
+}
 
 hr {margin:0;}
 
 .mySlider{
   background-color:#CCBBB7;
-  
+
 }
+
 
 .portfolioselection {
   background-color:#CCBBB7;
 
 }
-.porfolioselectio img {
-  padding:10px;
-  max width:60px;
-  max-height:100px;
+
+
+
+div.link {
+cursor: pointer;
+text-decoration: none;
+
 }
 
+div.link a {color:white;}
+div.link a:hover {color:gold;}
 
 .panelslider {
 
@@ -256,6 +273,8 @@ hr {margin:0;}
       color: #008cba; }
   .panel.radius {
     border-radius: 3px; }
+
+
 
 
 /*#dimmed {
