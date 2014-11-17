@@ -28,7 +28,6 @@ div {
 }*/
 
 
-p { color:white;}
 
 
 /*same bg color as body*/
@@ -190,10 +189,11 @@ border: 1px solid black;
     font-style: italic;
   }
 
- /* .menuholder {background-color: black;
-    padding:0px;*/
+ 
 
-  }
+
+hr {margin:0;}
+
 .mySlider{
   background-color:#CCBBB7;
 
@@ -213,7 +213,8 @@ border: 1px solid black;
   .panel > :last-child {
     margin-bottom: 0; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
-    color: #333333; }
+    color: white; }
+    /*weird color*/
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
     line-height: 1;
     margin-bottom: 0.625rem; }
