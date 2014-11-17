@@ -196,13 +196,22 @@ hr {margin:0;}
 
 .mySlider{
   background-color:#CCBBB7;
+  
 }
 
-.porfolioselection {
+.portfolioselection {
   background-color:#CCBBB7;
+
 }
+.porfolioselectio img {
+  padding:10px;
+  max width:60px;
+  max-height:100px;
+}
+
 
 .panelslider {
+
   border-radius:20px;
   border-style: solid;
   border-width: 1px;
@@ -210,7 +219,8 @@ hr {margin:0;}
   margin-bottom: 1.25rem;
   padding: 1.25rem;
   background: #212121;
-  color: #333333; }
+  text-align: center;
+  color: white; }
   .panel > :first-child {
     margin-top: 0; }
   .panel > :last-child {

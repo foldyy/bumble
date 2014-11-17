@@ -99,32 +99,82 @@ we present you the images in sliders
 <div class="row">   
   
     <div class="large-4 columns">
+
         <div class="panelslider">
-            <div class="porfolioselection">
+           <div class="portfolioselection">
                 <div>
-                    <img src="img/stol.jpg">
+                    <a href="Sculpture.html"><img src="img/krovat.jpg"></a>
                 </div>
                 <div>
-                    <img src="img/Shahmati.jpg">
+                   <a href="Sculpture.html"><img src="img/stol.jpg"></a>
                 </div>
                 <div>
-                    <img src="img/krovat.jpg">
+                   <a href="Sculpture.html"> <img src="img/inessa.jpg"></a>
                 </div>
                 <div>
-                    <img src="img/inessa.jpg">
+                  <a href="Sculpture.html">  <img src="img/krovat.jpg"></a>
                 </div>
                 <div>
-                    <img src="img/krovat.jpg">
+                  <a href="Sculpture.html">  <img src="img/stol.jpg"></a>
                 </div>
                 <div>
-                    <img src="img/stol.jpg">
+                  <a href="Sculpture.html">  <img src="img/inessa.jpg"></a>
                 </div>
             </div>
+            Sculpture
         </div>
     </div>
     <div class="large-4 columns">
+       <div class="panelslider">
+            <div class="portfolioselection">
+                <div>
+                    <a href="furniture.html"><img src="img/krovat.jpg"></a>
+                </div>
+                <div>
+                   <a href="furniture.html"><img src="img/stol.jpg"></a>
+                </div>
+                <div>
+                   <a href="furniture.html"> <img src="img/inessa.jpg"></a>
+                </div>
+                <div>
+                  <a href="furniture.html">  <img src="img/krovat.jpg"></a>
+                </div>
+                <div>
+                  <a href="furniture.html">  <img src="img/stol.jpg"></a>
+                </div>
+                <div>
+                  <a href="furniture.html">  <img src="img/inessa.jpg"></a>
+                </div>
+            </div>
+            Instalations
+        </div>
     </div>
     <div class="large-4 columns">
+     
+       <div class="panelslider">
+            <div class="portfolioselection">
+                <div>
+                    <a href="furniture.html"><img src="img/krovat.jpg"></a>
+                </div>
+                <div>
+                   <a href="furniture.html"><img src="img/stol.jpg"></a>
+                </div>
+                <div>
+                   <a href="furniture.html"> <img src="img/inessa.jpg"></a>
+                </div>
+                <div>
+                  <a href="furniture.html">  <img src="img/krovat.jpg"></a>
+                </div>
+                <div>
+                  <a href="furniture.html">  <img src="img/stol.jpg"></a>
+                </div>
+                <div>
+                  <a href="furniture.html">  <img src="img/inessa.jpg"></a>
+                </div>
+            </div>
+            Furniture
+        </div>
+        </a>
     </div>
 </div>
 
@@ -191,7 +241,10 @@ we present you the images in sliders
 <!-- Wrapper Ends -->
 </div> 
 
-
+<!-- // javascript (using jQuery)
+$(“div.link”).click(function(){
+document.location.href = $(this).attr(“rel”);
+}); -->
 
 
 <!-- Scripts and Stuff -->
@@ -204,6 +257,7 @@ we present you the images in sliders
 
 <script type="text/javascript">
      $(document).foundation();
+
     </script>
 
 
@@ -217,20 +271,23 @@ we present you the images in sliders
 
  /*<script type="text/javascript">
 $(document).ready(function () {
-    $('.porfolioselection').slick({
-    infinite:true,
-    autoplay:true,
-    autoplaySpeed: 2000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: false,
-    arrows: false,
-    adaptiveHeight: true,
-    focusOnSelect: true
-
+    $('.portfolioselection').slick({
+   infinite: true,
+  speed: 900,
+  fade: true,
+  slide: 'div',
+  cssEase: 'linear',
+ slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 4000,
+arrows:false,
+focusOnSelect:true
 
     });
     });
     </script>*/
+
+
+
   </body>
 </html>
