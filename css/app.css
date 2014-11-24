@@ -1,6 +1,7 @@
 body {
 /*background: transparent !important;*/
-  background: #29382E;
+  background:#F2ECCB ;
+  /*#29382E*/
   /*#141414*/
   /*background-image: url("../img/Inessa.jpg");*/
   background-repeat: no-repeat;
@@ -16,6 +17,8 @@ body {
   cursor: auto; }
 
 /*FONTS*/
+
+
 
 
 /*@font-face { 
@@ -182,7 +185,7 @@ border: 1px solid black;
 
   .panel {
     text-align: center; 
-    color:white;
+   /* color:white;*/
     background-color:transparent;
     border-radius:;
     border:none;
@@ -191,19 +194,10 @@ border: 1px solid black;
 
  
 
-.link:hover{
 
-  cursor:pointer;
 
-}
-
-div.link {
-cursor: pointer;
-text-decoration: none;
- onclick="location.href='furniture.html';"
-}
-
-hr {margin:0;}
+hr {margin:0;
+color:#333;}
 
 .mySlider{
   background-color:#CCBBB7;
@@ -226,6 +220,34 @@ text-decoration: none;
 
 div.link a {color:white;}
 div.link a:hover {color:gold;}
+.link:hover {}
+
+
+/*.link:hover{
+
+  cursor:pointer;
+
+}
+
+div.link {
+cursor: pointer;
+text-decoration: none;
+ onclick="location.href='furniture.html';"
+}
+*/
+
+
+
+
+  #showinfo {
+    display: none;
+}
+
+#content:hover~#showinfo{
+    display: block;
+}
+
+
 
 .panelslider {
 
@@ -243,7 +265,7 @@ div.link a:hover {color:gold;}
   .panel > :last-child {
     margin-bottom: 0; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
-    color: white; }
+    color: #333; }
     /*weird color*/
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
     line-height: 1;
@@ -301,7 +323,7 @@ div.link a:hover {color:gold;}
      max-width: 62.5em; 
      width: 100%; 
      box-shadow: 0px 0px 15px;
-     color:White;
+     /*color:White;*/
      border-radius: .5em;
      height:auto;
 }
