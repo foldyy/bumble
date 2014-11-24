@@ -191,9 +191,16 @@ border: 1px solid black;
     border:none;
     font-style: italic;
   }
+/*p {text-align: left;}*/
 
- 
-
+.textpanel {
+   text-align: center; 
+   /* color:white;*/
+    background-color:transparent;
+    border-radius:;
+    border:none;
+    font-style: italic;
+}
 
 
 hr {margin:0;
@@ -236,17 +243,17 @@ text-decoration: none;
 }
 */
 
+/*Hoovering Experiment*/
 
-
-
+/*
   #showinfo {
     display: none;
 }
 
-#content:hover~#showinfo{
+#content:hover+#showinfo{
     display: block;
 }
-
+*/
 
 
 .panelslider {
