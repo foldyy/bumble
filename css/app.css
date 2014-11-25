@@ -193,6 +193,14 @@ border: 1px solid black;
   }
 /*p {text-align: left;}*/
 
+.galery .fancybox1 img
+{
+    width: 75px;
+    height: 75px;
+}
+
+
+
 .textpanel {
    text-align: left; 
    /* color:white;*/
