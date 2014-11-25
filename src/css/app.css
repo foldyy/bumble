@@ -62,7 +62,6 @@ color: #fff;
 padding: 12px 0 12px 0;
 padding-left: 15px;
 font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
-font-size:100v%;
 font-weight: normal;
 text-transform: none;
 }
@@ -187,7 +186,6 @@ border: 1px solid black;
     text-align: center; 
    /* color:white;*/
     background-color:transparent;
-    border-radius:;
     border:none;
     font-style: italic;
   }
@@ -205,7 +203,6 @@ border: 1px solid black;
    text-align: left; 
    /* color:white;*/
     background-color:transparent;
-    border-radius:;
     border:none;
     font-style: italic;
 }
@@ -214,7 +211,6 @@ border: 1px solid black;
    text-align: left; 
     color:white;
     background-color:black;
-    border-radius:;
     border:thin;
     font-style: italic;
 }
