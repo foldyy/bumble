@@ -119,8 +119,8 @@ border: 1px solid black;
 
 .row {
   border: 1px solid orange;
-}*/
-  
+}
+  */
 
   .row {
   width: 100%;
@@ -194,11 +194,20 @@ border: 1px solid black;
 /*p {text-align: left;}*/
 
 .textpanel {
-   text-align: center; 
+   text-align: left; 
    /* color:white;*/
     background-color:transparent;
     border-radius:;
     border:none;
+    font-style: italic;
+}
+
+.categorypanel {
+   text-align: left; 
+    color:white;
+    background-color:black;
+    border-radius:;
+    border:thin;
     font-style: italic;
 }
 
